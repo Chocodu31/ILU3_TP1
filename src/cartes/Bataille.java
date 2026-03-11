@@ -6,5 +6,4 @@ public abstract class Bataille extends Probleme {
 		super(type);
 		// TODO Auto-generated constructor stub
 	}
-
 }
