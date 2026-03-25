@@ -22,10 +22,8 @@ public class JeuDeCartes {
 		typesDeCartes[14] = new Configuration(new Attaque(Type.ACCIDENT), 3);
 		
 		typesDeCartes[15] = new Configuration(new Botte(Type.FEU), 1);
-		typesDeCartes[16] = new Configuration(new Attaque(Type.ESSENCE), 1);
-		typesDeCartes[17] = new Configuration(new Attaque(Type.CREVAISON), 1);
-		/*typesDeCartes[16] = new Configuration(new Botte(Type.ESSENCE),1);
-		typesDeCartes[15] = new Configuration(new Botte(Type.CREVAISON),1);*/
+		typesDeCartes[16] = new Configuration(new Botte(Type.ESSENCE),1);
+		typesDeCartes[17] = new Configuration(new Botte(Type.CREVAISON),1);
 		typesDeCartes[18] = new Configuration(new Botte(Type.ACCIDENT), 1);
 		
 
