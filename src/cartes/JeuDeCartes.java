@@ -37,6 +37,25 @@ public class JeuDeCartes {
 		return text.toString();
 	}
 	
+	public boolean checkCount() {
+		Carte[] jeu = donnerCartes();
+		
+		int sum = 0;
+		for (int i = 0; i<typesDeCartes.length; i++) {
+			sum = 0;
+			for (int j = 0; j<jeu.length; j++) {
+				if (jeu[j].toString().equals(typesDeCartes[i].getCarte().toString())) {
+					sum++;
+				}
+			}
+			if(typesDeCartes[i].getNbExemplaires() != sum) {
+				return false;
+			}
+		}
+		
+		return true;
+	}
+	
 	public Carte[] donnerCartes() {
 		int total = 0;
 		for (Configuration config : typesDeCartes) {
