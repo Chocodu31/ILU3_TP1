@@ -11,4 +11,7 @@ public class ZoneDeJeu {
 	private List<Limite> pileLimite;
 	private List<Bataille> pileBataille;
 	private Collection<Borne> collecBorne;
+
+	
 }
+
