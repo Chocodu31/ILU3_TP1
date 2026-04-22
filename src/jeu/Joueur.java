@@ -39,4 +39,8 @@ public class Joueur {
 		donner(carte);
 		return carte;
 	}
+	
+	public int donnerKmParcourus() {
+		return zonedejeu.donnerKmParcourus();
+	}
 }
